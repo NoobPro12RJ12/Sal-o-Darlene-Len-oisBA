@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Salão Darlene Oliveira Muniz</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+    header h1 {
+      margin: 0;
+    }
+    nav {
+      text-align: center;
+      background-color: #444;
+      padding: 10px;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+    }
+    section {
+      padding: 40px 20px;
+    }
+    .container {
+      width: 80%;
+      margin: 0 auto;
+    }
+    .services, .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .service, .gallery-item {
+      width: 30%;
+      background: #fff;
+      padding: 20px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    .service img, .gallery-item img {
+      width: 100%;
+      height: auto;
+    }
+    .service h3, .gallery-item h3 {
+      margin-top: 10px;
+      font-size: 18px;
+    }
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+    .btn {
+      background-color: #f47c7c;
+      padding: 10px 20px;
+      color: white;
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    .btn:hover {
+      background-color: #e64a4a;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Cabeçalho -->
+  <header>
+    <h1>Salão Darlene Oliveira Muniz</h1>
+    <p>Transforme seu visual com os melhores profissionais!</p>
+  </header>
+
+  <!-- Navegação -->
+  <nav>
+    <a href="#home">Início</a>
+    <a href="#sobre">Sobre</a>
+    <a href="#servicos">Serviços</a>
+    <a href="#galeria">Galeria</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <!-- Página Inicial -->
+  <section id="home" class="container">
+    <h2>Bem-vindo ao nosso salão!</h2>
+    <p>O Salão Darlene Oliveira Muniz oferece serviços de beleza com a mais alta qualidade e um atendimento exclusivo para cada cliente.</p>
+    <button class="btn" onclick="window.location.href='#contato'">Agende seu horário</button>
+  </section>
+
+  <!-- Sobre -->
+  <section id="sobre" class="container">
+    <h2>Quem Somos</h2>
+    <p>Somos um salão especializado em proporcionar uma experiência única aos nossos clientes. Nossos profissionais são altamente qualificados para transformar seu visual com todo o cuidado e carinho.</p>
+  </section>
+
+  <!-- Serviços -->
+  <section id="servicos" class="container">
+    <h2>Serviços</h2>
+    <div class="services">
+      <div class="service">
+        <img src="corte.jpg" alt="Corte de Cabelo">
+        <h3>Corte de Cabelo</h3>
+        <p>Corte moderno e personalizado para todos os tipos de cabelo.</p>
+      </div>
+      <div class="service">
+        <img src="coloração.jpg" alt="Coloração de Cabelo">
+        <h3>Coloração</h3>
+        <p>Transforme seu visual com coloração de alta qualidade.</p>
+      </div>
+      <div class="service">
+        <img src="manicure.jpg" alt="Manicure e Pedicure">
+        <h3>Manicure e Pedicure</h3>
+        <p>Cuide das suas mãos e pés com os melhores profissionais.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Galeria -->
+  <section id="galeria" class="container">
+    <h2>Transformações de Beleza</h2>
+    <div class="gallery">
+      <div class="gallery-item">
+        <img src="antes-depois1.jpg" alt="Transformação 1">
+        <h3>Transformação 1</h3>
+      </div>
+      <div class="gallery-item">
+        <img src="antes-depois2.jpg" alt="Transformação 2">
+        <h3>Transformação 2</h3>
+      </div>
+      <div class="gallery-item">
+        <img src="antes-depois3.jpg" alt="Transformação 3">
+        <h3>Transformação 3</h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <section id="contato" class="container">
+    <h2>Fale Conosco</h2>
+    <p>Entre em contato conosco para agendamentos ou dúvidas!</p>
+    <p><strong>Telefone:</strong> (XX) XXXX-XXXX</p>
+    <p><strong>E-mail:</strong> contato@salondarlene.com.br</p>
+    <p><strong>Instagram:</strong> @salaodarleneoliveuramuniz</p>
+    <button class="btn" onclick="window.location.href='https://www.instagram.com/salaodarleneoliveuramuniz/'" target="_blank">Siga-nos no Instagram</button>
+  </section>
+
+  <!-- Rodapé -->
+  <footer>
+    <p>&copy; 2025 Salão Darlene Oliveira Muniz - Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
